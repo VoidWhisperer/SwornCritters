@@ -1,0 +1,40 @@
+Configuration:
+
+ #This defines if you want the version of mob spawning from the first two versions, or the new kind.
+ #The new kind doesn't suppress notch's mob spawns, but spawns ghasts/blazes/etc during the night and passives during the day.
+ #Notice: Only the spawnchance, player-mob-cap,and the legendary options apply if you use this option.
+ #I will try my best to maintain both versions. ~ Void
+ 
+ old-version: false
+ 
+ 
+ #This is the chance out of 100 that a mob will spawn next to a player every 30 seconds.
+ spawnchance: 15
+ 
+ #These next 3 MUST add up to 100.
+ #Chance that a common mob will spawn out of 100
+ commonchance: 80
+ 
+ #Chance that an uncommon mob will spawn out of 100
+ uncommonchance: 15
+ 
+ #Chance than a rare mob will spawn out of 100
+ rarechance: 5
+ 
+ #Mob cap
+ player-mob-cap: 2
+ 
+ #Interval time(seconds = 20*seconds)
+ spawn-ticks: 2
+ 
+ #debug outputs
+ debug-mode: false
+ 
+ #Legendary Mobs Enabled (Very large, deadly mobs that spawn every so often, only 1 at once though)
+ Legendaries-Enabled: true
+ 
+ #Legendary spawn message notification
+ notify-legendary-spawn: true
+ 
+ #Zombie hell.. they run very, very fast.
+ zombie-hell-version: false

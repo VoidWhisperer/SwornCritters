@@ -1,0 +1,18 @@
+author: VoidWhisperer
+database: false
+description: "Minesworn: Mob Spawning Revamp"
+main: vc.voidwhisperer.sworncritters.SwornCritters
+name: SwornCritters
+startup: postworld
+version: '3.2'
+softdepend: [Factions,SwornNations]
+commands:
+ SCReload:
+  description: reloads the configuration
+  usage: /SCReload
+ SetDist:
+  description: Sets the spawn radius from a player
+  usage: /SetDist [num] 
+ LS:
+  description: gets infomation on the current legendaries
+  usage: /ls
